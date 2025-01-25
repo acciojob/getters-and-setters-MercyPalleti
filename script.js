@@ -13,13 +13,13 @@ class Person {
 }
 
 class Student extends Person {
-	study(){
+	study(name){
 		return this.name+" is studying";
 	}
 }
 
 class Teacher extends Person {
-	teach(){
+	teach(name){
 		return this.name +"is teaching";
 	}
 }
