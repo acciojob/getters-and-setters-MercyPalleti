@@ -7,8 +7,8 @@ class Person {
 	getname(){
 		return this.name;
 	}
-	setage(age){
-		return this.age;
+	setage(newage){
+		this.age=newage;
 	}
 }
 
